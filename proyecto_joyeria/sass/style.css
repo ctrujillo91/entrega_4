@@ -1,0 +1,44 @@
+body {
+  background-color: #f9f9f9; }
+
+h1 {
+  font-family: 'Volkhov', serif;
+  font-size: 30px;
+  font-weight: 500; }
+
+#brand {
+  transform: translate(70px);
+  width: 100px;
+  transition: width 2s; }
+
+#brand:hover {
+  width: 200px; }
+
+.navbar-brand {
+  font-family: 'Volkhov', serif;
+  font-size: 50px;
+  font-weight: 500;
+  background-color: #262626; }
+
+.navbar {
+  word-spacing: 30px; }
+
+#font {
+  font-family: 'Arapey', serif;
+  font-size: 25px; }
+
+.iconify {
+  width: 24px;
+  height: 24px; }
+
+#animationImage {
+  animation-name: movImg;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 0s; }
+
+@keyframes movImg {
+  from { }
+  to {
+    transform: translate(100px); } }
